@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53 (72520) - https://sketchapp.com -->
+    <title>icon / object / time</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Homepage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="homepage" transform="translate(-208.000000, -498.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="hero" transform="translate(0.000000, 96.000000)">
+                <g id="Group-12" transform="translate(130.000000, 52.000000)">
+                    <g id="Group-6" transform="translate(72.000000, 152.000000)">
+                        <g id="icon-/-object-/-time" transform="translate(0.000000, 192.000000)">
+                            <path d="M15.2928932,16.7071068 C15.1119288,16.5261424 15,16.2761424 15,16 L15,11 C15,10.4477153 15.4477153,10 16,10 C16.5522847,10 17,10.4477153 17,11 L17,15.5857864 L19.7071068,18.2928932 C20.0976311,18.6834175 20.0976311,19.3165825 19.7071068,19.7071068 C19.3165825,20.0976311 18.6834175,20.0976311 18.2928932,19.7071068 L15.2928932,16.7071068 Z M16,26 C10.4771525,26 6,21.5228475 6,16 C6,10.4771525 10.4771525,6 16,6 C21.5228475,6 26,10.4771525 26,16 C26,21.5228475 21.5228475,26 16,26 Z M16,24 C20.418278,24 24,20.418278 24,16 C24,11.581722 20.418278,8 16,8 C11.581722,8 8,11.581722 8,16 C8,20.418278 11.581722,24 16,24 Z" id="🎨-icon-color"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
