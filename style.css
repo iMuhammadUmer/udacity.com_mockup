@@ -3,3 +3,16 @@
   padding: 0;
   font-family: sans-serif;
 }
+header {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .content {
+  height: 32px;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
