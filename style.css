@@ -3,16 +3,78 @@
   padding: 0;
   font-family: sans-serif;
 }
+:root {
+  --grey: #525c65;
+  --blue: #02b3e4;
+  --hr: #ffc6c6;
+}
+a {
+  text-decoration: none;
+}
 header {
   height: 100px;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  position: fixed;
 }
 header .content {
   height: 32px;
-  width: 80%;
+  width: 85%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+nav {
+  width: 60%;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav li {
+  list-style-type: none;
+  font-size: 16px;
+  color: var(--grey);
+}
+nav li:hover {
+  color: var(--blue);
+}
+li a {
+  color: inherit;
+}
+nav .verHr {
+  height: 20px;
+  border-left: 1px solid var(--hr);
+}
+li select {
+  width: auto;
+  height: 36px;
+  outline: none;
+  border: none;
+  font-size: 16px;
+  color: var(--grey);
+  cursor: pointer;
+  appearance: none;
+}
+select:hover {
+  color: var(--blue);
+}
+button {
+  border: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  outline: none;
+  background-color: var(--blue);
+  color: white;
+  font-size: 13px;
+  line-height: 29px;
+  font-weight: 600;
+  cursor: pointer;
+}
+#btnGetStarted {
+  width: 131px;
+  height: 32px;
 }
