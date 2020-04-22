@@ -9,6 +9,7 @@
   --blue: #02b3e4;
   --hr: #ffc6c6;
   --blueHover: #029fcb;
+  --black: #2e3d49;
 }
 a {
   text-decoration: none;
@@ -95,10 +96,9 @@ main {
 }
 main .content {
   width: 85%;
-  height: 320px;
+  height: 330px;
   display: flex;
   justify-content: space-between;
-  background-color: var(--grey);
   color: white;
 }
 main p {
@@ -113,7 +113,8 @@ main .mainCol1 {
   justify-content: space-around;
   flex-direction: column;
   background-image: url(images/HomepageBanner_tablet.jpg);
-  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: cover;
   padding-left: 2em;
 }
 #btnLearnMore {
@@ -145,7 +146,15 @@ main .companiesLogos {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: var(--blue);
+}
+.mainCol2 h2 {
+  color: var(--black);
+  font-size: 26px;
+  line-height: 36px;
+  font-weight: 300;
+}
+#bold {
+  font-weight: 600;
 }
 table {
   width: 100%;
@@ -156,13 +165,11 @@ th {
 tr {
   width: 100%;
   height: 40px;
-  background-color: blueviolet;
-  border: 1px solid black;
 }
 td {
   width: 254px;
-  border: 2px solid white;
   padding-left: 1em;
+  color: var(--black);
 }
 table #grey {
   width: 110px;
@@ -172,6 +179,7 @@ table #grey {
   line-height: 18px;
   font-weight: 600;
   padding-left: 0;
+  color: white;
 }
 table #blue {
   width: 110px;
@@ -181,4 +189,5 @@ table #blue {
   line-height: 18px;
   font-weight: 600;
   padding-left: 0;
+  color: white;
 }
