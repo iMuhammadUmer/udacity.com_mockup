@@ -191,3 +191,13 @@ table #blue {
   padding-left: 0;
   color: white;
 }
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.schoolPrograms {
+  height: 500px;
+  width: 100%;
+}
