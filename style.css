@@ -200,4 +200,59 @@ section {
 .schoolPrograms {
   height: 500px;
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.schoolPrograms .content {
+  height: 380px;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+.schoolPrograms .cat {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.schoolPrograms .coursesRow {
+  width: 100%;
+  height: 270px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.coursesRow .coursesCol {
+  width: 242px;
+  height: 270px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5px;
+  box-shadow: 0 0 10px silver;
+}
+.coursesCol .img {
+  height: 135px;
+  width: 242px;
+  border-radius: 5px;
+  padding: 10px;
+}
+#dataAnalystCourse {
+  background: rgba(0, 0, 0, 0.5) url(images/data_analyst_catalog_image.jpg);
+  background-size: cover;
+}
+.coursesCol .tag {
+  width: 90px;
+  height: 24px;
+  border-radius: 5px;
+  background-color: orange;
+  color: white;
+  font-size: 0.8125em;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
