@@ -395,7 +395,30 @@ section {
 .virtualConference .content {
   width: 87%;
   background-color: var(--black);
+  color: white;
+  text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+}
+.virtualConference h1 {
+  width: 700px;
+  height: 60px;
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: 300;
+}
+.virtualConference p {
+  width: 800px;
+  height: 60px;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
+  margin: 2em 0 2em 0;
+}
+#btnRegisterNow {
+  width: 220px;
+  height: 48px;
+  letter-spacing: 2px;
 }
