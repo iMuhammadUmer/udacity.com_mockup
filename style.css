@@ -528,3 +528,43 @@ footer{
   align-items: center;
   background-color: var(--hr);
 }
+footer .content{
+  height: 1100px;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+footer .content .linksRow{
+  width: 100%;
+  height: 835px;
+  display: flex;
+  justify-content: space-between;
+}
+.linksRow .linksCol{
+  height: 100%;
+  width: 240px;
+}
+#heading{
+  font-size: 13px;
+  line-height: 24px;
+  font-weight: 600;
+  letter-spacing: 3px;
+  color: var(--silver);
+  margin: 1em 0 0.5em 0 ;
+}
+.linksCol li{
+  list-style-type: none;
+  width: inherit;
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 400;
+  color: var(--grey);
+}
+.linksCol li:hover{
+  color: var(--black);
+}
+.linksCol a{
+  font: inherit;
+  text-decoration: none;
+}
