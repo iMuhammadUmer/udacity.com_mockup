@@ -435,7 +435,7 @@ section {
   text-align: center;
 }
 .numbersStrength .content {
-  width: 80%;
+  width: 85%;
   height: inherit;
   display: flex;
   justify-content: space-around;
@@ -515,4 +515,8 @@ section {
   color: var(--silver);
   letter-spacing: 3px;
 }
-  
+#btnMoreSuccessStories{
+  width: 220px;
+  height: 48px;
+  letter-spacing: 2px;
+}
