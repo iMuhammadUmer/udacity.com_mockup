@@ -520,3 +520,11 @@ section {
   height: 48px;
   letter-spacing: 2px;
 }
+footer{
+  height: 1240px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--hr);
+}
